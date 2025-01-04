@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav li{
+    display: inline-block;
+    padding: 0 20px;
+    margin-right: 30px;
+}
+nav li a{
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav li a:hover{
+    color: blue;
+    text-decoration: underline;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.header h1{
+    margin-left: 40px;
+}
+
+.banner img{
+    float: right;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.banner img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.banner h1{
+    float: left;
+    margin-top: 180px;
+    margin-left: 40px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner p{
+    float: left;
+    margin-top: 20px;
+    margin-left: 550px;
+    font-size: 20px;
+}
+.items{
+    clear: both;
+    padding: 60px;
+    background-color: yellowgreen;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.items:hover{
+    color: white;
+    background-color: green;
+    transition: 0.3s;
+}
+.menu .items:hover{
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.menu .menu-items{
+    border: 2px solid black;
+    width: 300px;
+    height: 430px;
+    margin-top: 40px;
+    text-align: center;
+}
+.menu-items .btn{
+    padding: 10px 18px;
+    background-color: yellowgreen;
+}
+.menu-items .btn:hover{
+    background-color: green;
+    color: white;
+    transition: 0.3s;
+}
+.service{
+    background-color: yellowgreen;
+    padding: 60px;
+    margin-top: 40px;
+    font-size: 50px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.service:hover{
+    color: white;
+    background-color: green;
+    transition: 0.3s;
+}   
+.one{
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.one h1{
+    font-size: 40px;
+}
+.one p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.contact{
+    background-color: yellowgreen;
+    padding: 60px;
+    margin-top: 40px;
+    font-size: 50px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.con p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.contact:hover{
+    color: white;
+    background-color: green;
+    transition: 0.3s;
+}
+
+address{
+    font-size: 20px;
+    background-color: lightgray;
+    margin-top: 30px;
+    text-align: center;
+}
